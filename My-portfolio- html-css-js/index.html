@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+            <img src="./assets/suryaraj-logo.png" alt="logo" class="logo" />
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">
+            <img src="./assets/suryaraj-logo.png" alt="logo" class="logo" />
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="surya raj profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Surya raj</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                    <img src="./assets/download icon.png" class="download-btn" alt="downloadicon" />
+                    Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://linkedin.com/in/suryarajrs/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/suryarajrs'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                        Transitioning from electrical engineering to software development through dedication and
+                        perseverance, I've cultivated expertise in HTML, CSS, JavaScript, and React.js. With a genuine
+                        passion for software, I continually seek opportunities to learn and master new technologies. My
+                        unwavering work ethic has deepened my understanding of software principles. Excited to
+                        contribute to innovative projects, I bring adaptability, resilience, and a love for embracing
+                        new challenges. Seeking rewarding opportunities to contribute to organizational success while
+                        advancing my career growth.
+                    </p>
+                </div>
+                <div class="about-containers">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                            <h3>CERTIFICATIONS</h3>
+                            <p>Newton School <br />Full Stack Web Development </p>
+                            <p>Tech Stack Learnt: HTML, CSS, JavaScript, Reactjs, Dsa in Java, Bootstrap, Material Ui,
+                                React-Redux
+                                • Worked on various projects that provided hands-on experience in applying the
+                                technologies
+                                • Participated in various coding contests organized by the platform.</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p>B.E Bachelor's degree in Electrical and Electronics Engineering<br />D.EEE Diploma in
+                                Electrical and Electronics
+                                Engineering </p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/personal information.png" width="40px" height="80px" alt="Education icon" class="icon" />
+                            <h3>Personal Information</h3>
+                             <span style="font-weight: 500;">Name:</span> <span>SuryaRaj R.S</span>
+                             <br>
+                             <span style="font-weight: 500;">Address:</span> <span>Chennai,india</span>
+                             <br>
+                             <span style="font-weight: 500;">Email:</span> <span>suryars@outlook.in</span>
+                             <br>
+                             <span style="font-weight: 500;">Mobile:</span> <span>9551137125</span>
+                             <br>
+                             <span style="font-weight: 500;">Language Known:</span> <span>English,Tamil,Kannada</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Reactjs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>BootStrap</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React Redux</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+
+
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/reddit clone.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Reddit Clone-Reactjs </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/suryarajrs/Reddit-Clone-React', '_blank')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://starlit-malasada-956214.netlify.app/', '_blank')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/PrimevideoClone.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Prime-Video-Clone-Reactjs</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/suryarajrs/Prime-Video-Clone---React-Project-2---nyarmrqdfqx0', '_blank')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://65ff39bf071f0641bb61aab6--serene-quokka-a0c41a.netlify.app', '_blank')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/tictactoe.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Tic tac Toe</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/suryarajrs/tic-tac-toe/tree/main/tic%20tac%20toe')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://6634ab52debda3d6a9de48c4--elaborate-sunburst-038112.netlify.app/')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/MovieDeck.png" alt="Project 4" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Movie Deck</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/suryarajrs/movie-deck')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://aquamarine-crepe-295fa9.netlify.app/')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/MyMovieBookingApp.png" alt="Project 5" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">My Movie Booking App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/suryarajrs/movie-deck')">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://64c769f971ccc67f70699874--profound-melba-7e5ab7.netlify.app/')">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:suryars@outlook.in">suryars@outlook.in</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/in/suryarajrs/
+            ">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/phone1.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a class="phone-link" href="tel:+919551137125">+91 9551137125 </a></p>
+            </div>
+        </div>
+    </section>
+    <img src="./assets/double-up-arrow.png" alt="Arrow icon" class="upArrow" onclick="location.href='./#desktop-nav'" />
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <p>Copyright &#169; Created By suryarajr.s.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
